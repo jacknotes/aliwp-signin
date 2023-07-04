@@ -29,6 +29,7 @@ jobs:
           SMTP_SENDER: ${{ secrets.SMTP_SENDER }}
           SMTP_RECEIVER: ${{ secrets.SMTP_RECEIVER }}
           FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+          WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
           # WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
           CQHTTP_ENDPOINT: ${{ secrets.CQHTTP_ENDPOINT }}
           CQHTTP_USER_ID: ${{ secrets.CQHTTP_USER_ID }}
